@@ -89,7 +89,7 @@ export const Quiz = ({
   const title =
     challenge?.type === "ASSIST"
       ? "Select the correct meaning"
-      : challenge.question;
+      : challenge?.question;
 
   const onNext = () => {
     setActiveIndex((current) => current + 1);
