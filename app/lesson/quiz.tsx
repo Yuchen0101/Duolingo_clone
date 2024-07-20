@@ -87,7 +87,7 @@ export const Quiz = ({
   const options = challenge?.challengeOptions ?? [];
   // 拿到当前challenge的type来决定标题
   const title =
-    challenge.type === "ASSIST"
+    challenge?.type === "ASSIST"
       ? "Select the correct meaning"
       : challenge.question;
 
