@@ -48,20 +48,6 @@ export const Header = () => {
                 </Button>
               </SignInButton>
             </SignedOut>
-
-            <Link
-              href={links.sourceCode}
-              target="_blank"
-              rel="noreferrer noopener"
-              className={userId ? "pt-1.5" : "pt-3"}
-            >
-              <Image
-                src="/github.svg"
-                alt="Source Code"
-                height={20}
-                width={20}
-              />
-            </Link>
           </ClerkLoaded>
         </div>
       </div>

@@ -14,9 +14,7 @@
     "db:prod": "tsx ./scripts/prod.ts"
   },
   "author": {
-    "name": "Sanidhya Kumar Verma",
-    "email": "sanidhya.verma12345@gmail.com",
-    "url": "https://github.com/sanidhyy"
+    "name": "Joshua",
   },
   "description": "Interactive platform for language learning with lessons, quizzes, and progress tracking.",
   "keywords": [
