@@ -14,7 +14,7 @@
     "db:prod": "tsx ./scripts/prod.ts"
   },
   "author": {
-    "name": "Joshua",
+    "name": "Joshua"
   },
   "description": "Interactive platform for language learning with lessons, quizzes, and progress tracking.",
   "keywords": [
